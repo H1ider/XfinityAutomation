@@ -1,0 +1,4 @@
+# Created at 2021-09-19T00:47:32.856
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Xfinity_Automation_Assignment\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

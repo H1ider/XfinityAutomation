@@ -1,0 +1,1046 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3430661900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:47:34.013Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1844743800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User is shown the Sitemap and FindAStore option upon navigating to Sitemap link",
+        "description": "",
+        "id": "sitemap-and-nearby-stores-scenarios;user-is-shown-the-sitemap-and-findastore-option-upon-navigating-to-sitemap-link",
+        "after": [
+          {
+            "result": {
+              "duration": 626091600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 725351900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to SiteMap",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.userNavigatesToSiteMap()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1318123200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see Site map and FindAStore option",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.userShouldSeeSiteMapAndFindAStoreOption()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sitemap_visibility"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3492346100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:47:42.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1074944100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User is given nearby stores information upon entering location",
+        "description": "",
+        "id": "sitemap-and-nearby-stores-scenarios;user-is-given-nearby-stores-information-upon-entering-location",
+        "after": [
+          {
+            "result": {
+              "duration": 695233300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1393386200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to SiteMap",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.userNavigatesToSiteMap()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1722668500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigates to Find A Store tab",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.navigatesToFindAStoreTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677872800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should see nearby store information upon entering location",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.userShouldSeeNearbyStoreInformationUponEnteringLocation(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location",
+                  "storename"
+                ]
+              },
+              {
+                "cells": [
+                  "Rockville,MD",
+                  "31 Grand Corner Ave"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Find_A_Store_near_location_dataTable"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2945835500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:47:51.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1065048900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "User is given nearby stores information upon entering location parameterized",
+        "description": "",
+        "id": "sitemap-and-nearby-stores-scenarios;user-is-given-nearby-stores-information-upon-entering-location-parameterized;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 703394500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1403197500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User navigates to SiteMap",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.userNavigatesToSiteMap()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1684042400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Navigates to Find A Store tab",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.navigatesToFindAStoreTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663645500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User can use location \"Sterling, VA\" to find out nearby store \"20453 Exchange St\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sterling, VA",
+                  "offset": 23
+                },
+                {
+                  "val": "20453 Exchange St",
+                  "offset": 63
+                }
+              ],
+              "location": "step_definitions.SiteMapSteps.user_can_use_location_to_find_out_nearby_store(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Find_A_Store_near_location_parameterized"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3540593700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:47:59.563Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1092698000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User is given nearby stores information upon entering location parameterized",
+        "description": "",
+        "id": "sitemap-and-nearby-stores-scenarios;user-is-given-nearby-stores-information-upon-entering-location-parameterized;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 717307500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 638424500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User navigates to SiteMap",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.userNavigatesToSiteMap()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2798807700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Navigates to Find A Store tab",
+            "match": {
+              "location": "step_definitions.SiteMapSteps.navigatesToFindAStoreTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1223188700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User can use location \"Frederick, MD\" to find out nearby store \"1700 Kingfisher Drive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frederick, MD",
+                  "offset": 23
+                },
+                {
+                  "val": "1700 Kingfisher Drive",
+                  "offset": 64
+                }
+              ],
+              "location": "step_definitions.SiteMapSteps.user_can_use_location_to_find_out_nearby_store(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Find_A_Store_near_location_parameterized"
+          }
+        ]
+      }
+    ],
+    "name": "SiteMap and nearby stores scenarios",
+    "description": "",
+    "id": "sitemap-and-nearby-stores-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SiteMap.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3087946400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:48:09.583Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1084117800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User is shown recommended internet speed upon selecting device and usage options",
+        "description": "",
+        "id": "xfinity-internet-speed-and-deals-scenarios;user-is-shown-recommended-internet-speed-upon-selecting-device-and-usage-options",
+        "after": [
+          {
+            "result": {
+              "duration": 698917100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 695349300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to internet page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.userNavigatesToInternetPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2686525100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Selects the device and usage options",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.selectsTheDeviceAndUsageOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 369772500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should see recommended internet speed",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.userShouldSeeRecommendedInternetSpeed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@internet_speed_options"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3569744100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:48:18.214Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1079776000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "user can compare internet deals for specified location",
+        "description": "",
+        "id": "xfinity-internet-speed-and-deals-scenarios;user-can-compare-internet-deals-for-specified-location",
+        "after": [
+          {
+            "result": {
+              "duration": 665084500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3472969500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigates to all deals page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.userNavigatesToAllDealsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1055914100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Provides location and selects two deals",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.providesLocationAndSelectsTwoDeals(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "address",
+                  "street",
+                  "unit",
+                  "zipcode"
+                ]
+              },
+              {
+                "cells": [
+                  "740 CLOPPER ROAD, GAITHERSBURG, MD 20878",
+                  "740 Clopper RD",
+                  "11",
+                  "20878"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User can compare deals",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.userCanCompareDeals()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@internet_deals_options"
+          }
+        ]
+      }
+    ],
+    "name": "xfinity internet speed and deals Scenarios",
+    "description": "",
+    "id": "xfinity-internet-speed-and-deals-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/internetDeals.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2028240200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:48:28.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1089329700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login is unsuccessful with invalid credentials",
+        "description": "",
+        "id": "login-scenarios;login-is-unsuccessful-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 601779900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1876051100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates to login page and enters username \"me\" and password \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "me",
+                  "offset": 50
+                },
+                {
+                  "val": "1234",
+                  "offset": 68
+                }
+              ],
+              "location": "step_definitions.LoginSteps.useEntersUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644724100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on the Sign In button",
+            "match": {
+              "location": "step_definitions.LoginSteps.clickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22784700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should get an error message",
+            "match": {
+              "location": "step_definitions.LoginSteps.userShouldGetAndErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_negative_test_with_invalid_credentials"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2980187000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:48:34.336Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1063776500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login is unsuccessful with invalid user and blank password",
+        "description": "",
+        "id": "login-scenarios;login-is-unsuccessful-with-invalid-user-and-blank-password",
+        "after": [
+          {
+            "result": {
+              "duration": 607453000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1053217100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigates to login page and enters username \"they\" only",
+            "match": {
+              "arguments": [
+                {
+                  "val": "they",
+                  "offset": 50
+                }
+              ],
+              "location": "step_definitions.LoginSteps.userEntersUsernameOnly(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121531500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on the Sign In button",
+            "match": {
+              "location": "step_definitions.LoginSteps.clickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43408100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is shown password field error and failed to login",
+            "match": {
+              "location": "step_definitions.LoginSteps.userIsShownPasswordFieldErrorAndFailedToLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_negative_test_with_username"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3519475800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:48:40.212Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1085406500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login is unsuccessful with blank user and invalid password",
+        "description": "",
+        "id": "login-scenarios;login-is-unsuccessful-with-blank-user-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 678094600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 809600600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigates to login page and enters password \"they\" only",
+            "match": {
+              "arguments": [
+                {
+                  "val": "they",
+                  "offset": 50
+                }
+              ],
+              "location": "step_definitions.LoginSteps.user_navigates_to_login_page_and_enters_password_only(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193222100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click on the Sign In button",
+            "match": {
+              "location": "step_definitions.LoginSteps.clickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45878600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is shown user field error and failed to login",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_is_shown_user_field_error_and_failed_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_negative_test_with_password"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2187898900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home Page",
+            "match": {
+              "location": "step_definitions.InternetAndDealsSteps.aUserIsOnTheXfinityHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-19T04:48:46.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1085748900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login is unsuccessful with blank user and blank password",
+        "description": "",
+        "id": "login-scenarios;login-is-unsuccessful-with-blank-user-and-blank-password",
+        "after": [
+          {
+            "result": {
+              "duration": 629031300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1324592700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_navigates_to_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112859300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on the Sign In button",
+            "match": {
+              "location": "step_definitions.LoginSteps.clickOnTheSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66930500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is shown user field error and password field error and failed to login",
+            "match": {
+              "location": "step_definitions.LoginSteps.user_is_shown_user_field_error_and_password_field_error_and_failed_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login_negative_test_with_blank_username_and_blank_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login Scenarios",
+    "description": "",
+    "id": "login-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

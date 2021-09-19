@@ -1,0 +1,104 @@
+2021-09-19 00:47:35.893 [main][2940] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:47:39.332 [main][6379] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:47:39.334 [main][6381] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-19 00:47:40.059 [main][7106] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-19 00:47:40.060 [main][7107] DEBUG page_objects.SiteMap - verify that Site Map logo exist
+2021-09-19 00:47:40.478 [main][7525] DEBUG page_objects.SiteMap - verify that Find A Store option exist
+2021-09-19 00:47:41.378 [main][8425] DEBUG step_definitions.SiteMapSteps - Verifying SiteMap Page
+2021-09-19 00:47:42.004 [main][9051] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:47:43.092 [main][10139] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:47:46.585 [main][13632] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:47:46.586 [main][13633] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-19 00:47:47.978 [main][15025] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-19 00:47:47.981 [main][15028] DEBUG page_objects.SiteMap - navigating to StoreLocator page
+2021-09-19 00:47:49.702 [main][16749] DEBUG step_definitions.SiteMapSteps - User is navigated to the StoreLocator Page
+2021-09-19 00:47:50.255 [main][17302] DEBUG page_objects.StoreLocator - enter location
+2021-09-19 00:47:50.326 [main][17373] DEBUG page_objects.StoreLocator - click on search magnifying glass icon
+2021-09-19 00:47:50.381 [main][17428] DEBUG page_objects.StoreLocator - verify nearest store information
+2021-09-19 00:47:50.381 [main][17428] DEBUG step_definitions.SiteMapSteps - Verifying nearest store information against the Scenario dataTable
+2021-09-19 00:47:51.076 [main][18123] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:47:52.153 [main][19200] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:47:55.099 [main][22146] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:47:55.100 [main][22147] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-19 00:47:56.503 [main][23550] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-19 00:47:56.504 [main][23551] DEBUG page_objects.SiteMap - navigating to StoreLocator page
+2021-09-19 00:47:58.188 [main][25235] DEBUG step_definitions.SiteMapSteps - User is navigated to the StoreLocator Page
+2021-09-19 00:47:58.673 [main][25720] DEBUG page_objects.StoreLocator - enter location
+2021-09-19 00:47:58.752 [main][25799] DEBUG page_objects.StoreLocator - click on search magnifying glass icon
+2021-09-19 00:47:58.752 [main][25799] DEBUG page_objects.StoreLocator - Wait for nearest store information to exist
+2021-09-19 00:47:58.853 [main][25900] DEBUG page_objects.StoreLocator - verify nearest store information
+2021-09-19 00:47:58.853 [main][25900] DEBUG step_definitions.SiteMapSteps - Verifying nearest store information against the Scenario dataTable
+2021-09-19 00:47:59.558 [main][26605] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:00.655 [main][27702] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:04.197 [main][31244] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:04.199 [main][31246] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-19 00:48:04.836 [main][31883] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-19 00:48:04.836 [main][31883] DEBUG page_objects.SiteMap - navigating to StoreLocator page
+2021-09-19 00:48:07.635 [main][34682] DEBUG step_definitions.SiteMapSteps - User is navigated to the StoreLocator Page
+2021-09-19 00:48:08.142 [main][35189] DEBUG page_objects.StoreLocator - enter location
+2021-09-19 00:48:08.241 [main][35288] DEBUG page_objects.StoreLocator - click on search magnifying glass icon
+2021-09-19 00:48:08.241 [main][35288] DEBUG page_objects.StoreLocator - Wait for nearest store information to exist
+2021-09-19 00:48:08.857 [main][35904] DEBUG page_objects.StoreLocator - verify nearest store information
+2021-09-19 00:48:08.857 [main][35904] DEBUG step_definitions.SiteMapSteps - Verifying nearest store information against the Scenario dataTable
+2021-09-19 00:48:09.577 [main][36624] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:10.668 [main][37715] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:13.756 [main][40803] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:13.758 [main][40805] DEBUG page_objects.Home - Navigating to Internet Page
+2021-09-19 00:48:14.452 [main][41499] DEBUG step_definitions.LoginSteps - User is navigated to the Internet Page
+2021-09-19 00:48:14.454 [main][41501] DEBUG page_objects.Internet - Click on Shop Internet Speed
+2021-09-19 00:48:15.596 [main][42643] DEBUG page_objects.Internet - Click on What Speed Do I Need
+2021-09-19 00:48:16.463 [main][43510] DEBUG page_objects.Internet - Selection of number of devices
+2021-09-19 00:48:16.886 [main][43933] DEBUG page_objects.Internet - Selection of usage of internet
+2021-09-19 00:48:17.139 [main][44186] DEBUG step_definitions.LoginSteps - User has selected the device and usage options
+2021-09-19 00:48:17.140 [main][44187] DEBUG step_definitions.LoginSteps - Validating the recommended internet speed with config file entry
+2021-09-19 00:48:17.142 [main][44189] DEBUG page_objects.Internet - Wait for recommended internet speed to exist
+2021-09-19 00:48:17.413 [main][44460] DEBUG page_objects.Internet - Verification of the recommended internet speed exist
+2021-09-19 00:48:18.209 [main][45256] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:19.294 [main][46341] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:22.864 [main][49911] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:22.865 [main][49912] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-19 00:48:26.337 [main][53384] DEBUG step_definitions.LoginSteps - User is Navigated to the AllDeals page
+2021-09-19 00:48:27.292 [main][54339] DEBUG step_definitions.LoginSteps - User has provided location
+2021-09-19 00:48:27.393 [main][54440] DEBUG step_definitions.LoginSteps - User has clicked on Show Me Deals button
+2021-09-19 00:48:28.059 [main][55106] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:29.155 [main][56202] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:31.183 [main][58230] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:31.185 [main][58232] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-19 00:48:32.939 [main][59986] DEBUG page_objects.SignIn - entered username is me
+2021-09-19 00:48:33.059 [main][60106] DEBUG page_objects.SignIn - entered password is 1234
+2021-09-19 00:48:33.060 [main][60107] DEBUG step_definitions.LoginSteps - User is navigated to SignIn page and entered username and password
+2021-09-19 00:48:33.706 [main][60753] DEBUG page_objects.SignIn - Click on Sign In Button
+2021-09-19 00:48:33.706 [main][60753] DEBUG step_definitions.LoginSteps - User clicked on Login Button
+2021-09-19 00:48:33.706 [main][60753] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and login error using invalid credentials
+2021-09-19 00:48:33.728 [main][60775] DEBUG step_definitions.LoginSteps - Validating the unsuccessful login error msg with invalid user and invalid password
+2021-09-19 00:48:34.330 [main][61377] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:35.400 [main][62447] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:38.379 [main][65426] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:38.381 [main][65428] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-19 00:48:39.433 [main][66480] DEBUG page_objects.SignIn - entered username is they
+2021-09-19 00:48:39.433 [main][66480] DEBUG step_definitions.LoginSteps - User has entered username
+2021-09-19 00:48:39.555 [main][66602] DEBUG page_objects.SignIn - Click on Sign In Button
+2021-09-19 00:48:39.556 [main][66603] DEBUG step_definitions.LoginSteps - User clicked on Login Button
+2021-09-19 00:48:39.557 [main][66604] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and password error using invalid userName and blank password
+2021-09-19 00:48:39.599 [main][66646] DEBUG step_definitions.LoginSteps - Validating the password field error msg with invalid user and no password
+2021-09-19 00:48:40.208 [main][67255] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:41.299 [main][68346] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:44.818 [main][71865] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:44.819 [main][71866] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-19 00:48:45.628 [main][72675] DEBUG page_objects.SignIn - entered password is they
+2021-09-19 00:48:45.628 [main][72675] DEBUG step_definitions.LoginSteps - User is navigated to SignIn Page and entered password
+2021-09-19 00:48:45.821 [main][72868] DEBUG page_objects.SignIn - Click on Sign In Button
+2021-09-19 00:48:45.821 [main][72868] DEBUG step_definitions.LoginSteps - User clicked on Login Button
+2021-09-19 00:48:45.824 [main][72871] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and userName error using invalid userName and blank password
+2021-09-19 00:48:45.868 [main][72915] DEBUG step_definitions.LoginSteps - Validating username field error msg
+2021-09-19 00:48:46.547 [main][73594] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-19 00:48:47.637 [main][74684] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-19 00:48:49.825 [main][76872] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-19 00:48:49.826 [main][76873] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-19 00:48:51.150 [main][78197] DEBUG step_definitions.LoginSteps - User is navigated to SignIn page
+2021-09-19 00:48:51.264 [main][78311] DEBUG page_objects.SignIn - Click on Sign In Button
+2021-09-19 00:48:51.264 [main][78311] DEBUG step_definitions.LoginSteps - User clicked on Login Button
+2021-09-19 00:48:51.264 [main][78311] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and userName error using invalid userName and blank password
+2021-09-19 00:48:51.300 [main][78347] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and password error using invalid userName and blank password
+2021-09-19 00:48:51.331 [main][78378] DEBUG step_definitions.LoginSteps - Validating user and password field error msg
+2021-09-19 00:48:51.960 [main][79007] INFO  step_definitions.Hooks - close Chrome Browser

@@ -1,0 +1,115 @@
+2021-09-18 13:51:24.021 [main][3738] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:51:27.330 [main][7047] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:51:27.337 [main][7054] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-18 13:51:29.448 [main][9165] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-18 13:51:29.449 [main][9166] DEBUG page_objects.SiteMap - verify that Site Map logo exist
+2021-09-18 13:51:29.692 [main][9409] DEBUG page_objects.SiteMap - verify that Find A Store option exist
+2021-09-18 13:51:29.740 [main][9457] DEBUG step_definitions.SiteMapSteps - Verifying SiteMap Page
+2021-09-18 13:51:30.371 [main][10088] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:51:31.454 [main][11171] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:51:33.421 [main][13138] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:51:33.425 [main][13142] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-18 13:51:34.590 [main][14307] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-18 13:51:34.591 [main][14308] DEBUG page_objects.SiteMap - navigating to StoreLocator page
+2021-09-18 13:51:35.893 [main][15610] DEBUG step_definitions.SiteMapSteps - User is navigated to the StoreLocator Page
+2021-09-18 13:51:36.911 [main][16628] DEBUG page_objects.StoreLocator - enter location
+2021-09-18 13:51:37.003 [main][16720] DEBUG page_objects.StoreLocator - click on search magnifying glass icon
+2021-09-18 13:51:37.044 [main][16761] DEBUG page_objects.StoreLocator - verify nearest store information
+2021-09-18 13:51:37.045 [main][16762] DEBUG step_definitions.SiteMapSteps - Verifying nearest store information against the Scenario dataTable
+2021-09-18 13:51:37.730 [main][17447] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:51:38.821 [main][18538] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:51:41.119 [main][20836] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:51:41.120 [main][20837] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-18 13:51:43.078 [main][22795] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-18 13:51:43.078 [main][22795] DEBUG page_objects.SiteMap - navigating to StoreLocator page
+2021-09-18 13:51:44.393 [main][24110] DEBUG step_definitions.SiteMapSteps - User is navigated to the StoreLocator Page
+2021-09-18 13:51:45.411 [main][25128] DEBUG page_objects.StoreLocator - enter location
+2021-09-18 13:51:45.475 [main][25192] DEBUG page_objects.StoreLocator - click on search magnifying glass icon
+2021-09-18 13:51:45.494 [main][25211] DEBUG page_objects.StoreLocator - verify nearest store information
+2021-09-18 13:51:45.494 [main][25211] DEBUG step_definitions.SiteMapSteps - Verifying nearest store information against the Scenario dataTable
+2021-09-18 13:51:46.188 [main][25905] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:51:47.272 [main][26989] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:51:49.633 [main][29350] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:51:49.634 [main][29351] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-18 13:51:50.900 [main][30617] DEBUG step_definitions.SiteMapSteps - User is navigated to SiteMap Page
+2021-09-18 13:51:50.900 [main][30617] DEBUG page_objects.SiteMap - navigating to StoreLocator page
+2021-09-18 13:51:52.119 [main][31836] DEBUG step_definitions.SiteMapSteps - User is navigated to the StoreLocator Page
+2021-09-18 13:51:52.964 [main][32681] DEBUG page_objects.StoreLocator - enter location
+2021-09-18 13:51:53.032 [main][32749] DEBUG page_objects.StoreLocator - click on search magnifying glass icon
+2021-09-18 13:51:53.576 [main][33293] DEBUG page_objects.StoreLocator - verify nearest store information
+2021-09-18 13:51:53.577 [main][33294] DEBUG step_definitions.SiteMapSteps - Verifying nearest store information against the Scenario dataTable
+2021-09-18 13:51:54.284 [main][34001] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:51:55.374 [main][35091] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:51:57.280 [main][36997] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:51:57.282 [main][36999] DEBUG page_objects.Home - Navigating to Internet Page
+2021-09-18 13:51:58.612 [main][38329] DEBUG step_definitions.LoginSteps - User is navigated to the Internet Page
+2021-09-18 13:51:58.613 [main][38330] DEBUG page_objects.Internet - Click on Shop Internet Speed
+2021-09-18 13:51:59.528 [main][39245] DEBUG page_objects.Internet - Click on What Speed Do I Need
+2021-09-18 13:51:59.806 [main][39523] DEBUG page_objects.Internet - Selection of number of devices
+2021-09-18 13:52:00.229 [main][39946] DEBUG page_objects.Internet - Selection of usage of internet
+2021-09-18 13:52:00.607 [main][40324] DEBUG step_definitions.LoginSteps - User has selected the device and usage options
+2021-09-18 13:52:00.608 [main][40325] DEBUG step_definitions.LoginSteps - Validating the recommended internet speed with config file entry
+2021-09-18 13:52:00.609 [main][40326] DEBUG page_objects.Internet - Verification of the recommended internet speed exist
+2021-09-18 13:52:02.500 [main][42217] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:52:03.596 [main][43313] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:52:05.568 [main][45285] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:52:05.570 [main][45287] DEBUG page_objects.Home - Navigating to All Deals Page
+2021-09-18 13:52:09.634 [main][49351] DEBUG step_definitions.LoginSteps - User is Navigated to the AllDeals page
+2021-09-18 13:52:14.729 [main][54446] ERROR command_givers.ElementActions - Element Exception for locator By.id: Address_SingleStreetAddress and exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#Address_SingleStreetAddress"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1UE5VR8G', ip: '192.168.205.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\OWNER\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60872}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f3f4528f46053f3b4e1e1ad59d79e191
+*** Element info: {Using=id, value=Address_SingleStreetAddress}
+2021-09-18 13:52:15.362 [main][55079] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:52:16.450 [main][56167] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:52:18.564 [main][58281] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:52:18.567 [main][58284] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-18 13:52:40.605 [main][80322] DEBUG page_objects.SignIn - entered username is me
+2021-09-18 13:52:40.697 [main][80414] DEBUG page_objects.SignIn - entered password is 1234
+2021-09-18 13:52:40.697 [main][80414] DEBUG step_definitions.LoginSteps - User is navigated to SignIn page and entered username and password
+2021-09-18 13:52:41.406 [main][81123] DEBUG page_objects.SignIn - Click on Sign In Button
+2021-09-18 13:52:41.406 [main][81123] DEBUG step_definitions.LoginSteps - User clicked on Login Button
+2021-09-18 13:52:41.406 [main][81123] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and login error using invalid credentials
+2021-09-18 13:52:41.431 [main][81148] DEBUG step_definitions.LoginSteps - Validating the unsuccessful login error msg with invalid user and invalid password
+2021-09-18 13:52:42.077 [main][81794] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:52:43.163 [main][82880] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:52:45.264 [main][84981] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:52:45.265 [main][84982] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-18 13:53:06.358 [main][106075] DEBUG page_objects.SignIn - entered username is they
+2021-09-18 13:53:06.358 [main][106075] DEBUG step_definitions.LoginSteps - User has entered username
+2021-09-18 13:53:06.451 [main][106168] DEBUG page_objects.SignIn - Click on Sign In Button
+2021-09-18 13:53:06.451 [main][106168] DEBUG step_definitions.LoginSteps - User clicked on Login Button
+2021-09-18 13:53:06.452 [main][106169] DEBUG page_objects.SignIn - Validating login attempt is unsuccessful and password error using invalid userName and blank password
+2021-09-18 13:53:06.474 [main][106191] DEBUG step_definitions.LoginSteps - Validating the password field error msg with invalid user and no password
+2021-09-18 13:53:07.107 [main][106824] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:53:08.187 [main][107904] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:53:10.508 [main][110225] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:53:10.508 [main][110225] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-18 13:53:29.590 [main][129307] ERROR command_givers.ElementActions - Element Exception for locator By.id: passwd and exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#passwd"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1UE5VR8G', ip: '192.168.205.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\OWNER\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47d3d04d45cc0ed63f748e4aed0ee932
+*** Element info: {Using=id, value=passwd}
+2021-09-18 13:53:30.247 [main][129964] INFO  step_definitions.Hooks - close Chrome Browser
+2021-09-18 13:53:31.337 [main][131054] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 13:53:33.406 [main][133123] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 13:53:33.408 [main][133125] DEBUG page_objects.Home - Navigating to Sign In Page
+2021-09-18 13:53:34.191 [main][133908] DEBUG step_definitions.LoginSteps - User is navigated to SignIn page
+2021-09-18 13:53:54.554 [main][154271] ERROR command_givers.ElementActions - Element Exception for locator By.id: sign_in and exception is org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#sign_in"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1UE5VR8G', ip: '192.168.205.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\OWNER\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 219ca6c3d2b350b9615d293779794372
+*** Element info: {Using=id, value=sign_in}
+2021-09-18 13:53:55.206 [main][154923] INFO  step_definitions.Hooks - close Chrome Browser

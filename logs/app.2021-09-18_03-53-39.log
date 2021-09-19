@@ -1,0 +1,12 @@
+2021-09-18 15:53:42.195 [main][4377] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-18 15:54:17.544 [main][39726] DEBUG step_definitions.LoginSteps - User is navigated to the Home Page
+2021-09-18 15:54:17.550 [main][39732] DEBUG page_objects.Home - Navigating to Internet Page
+2021-09-18 15:54:19.678 [main][41860] DEBUG step_definitions.LoginSteps - User is navigated to the Internet Page
+2021-09-18 15:54:19.679 [main][41861] DEBUG page_objects.Internet - Click on Shop Internet Speed
+2021-09-18 15:54:20.431 [main][42613] DEBUG page_objects.Internet - Click on What Speed Do I Need
+2021-09-18 15:54:20.857 [main][43039] DEBUG page_objects.Internet - Selection of number of devices
+2021-09-18 15:54:21.004 [main][43186] DEBUG page_objects.Internet - Selection of usage of internet
+2021-09-18 15:54:21.400 [main][43582] DEBUG step_definitions.LoginSteps - User has selected the device and usage options
+2021-09-18 15:54:21.401 [main][43583] DEBUG step_definitions.LoginSteps - Validating the recommended internet speed with config file entry
+2021-09-18 15:54:21.401 [main][43583] DEBUG page_objects.Internet - Verification of the recommended internet speed exist
+2021-09-18 15:54:22.201 [main][44383] INFO  step_definitions.Hooks - close Chrome Browser
